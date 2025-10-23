@@ -1,124 +1,215 @@
+h1{
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+
+table {
+    margin: auto;
+    table-layout: fixed;
+}
+
+td, th, img {
+    text-align: center;
+    border-radius: 5px;
+}
+
+th{
+    background-color: rgb(94, 72, 58);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
 .type-grass {
     background-color: rgb(120, 200, 80);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-grass:hover {
+    background-color: rgb(100, 180, 60);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-fire {
     background-color: rgb(240, 128, 48);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-fire:hover {
+    background-color: rgb(220, 108, 28);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-water {
     background-color: rgb(104, 144, 240);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-water:hover {
+    background-color: rgb(84, 124, 220);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-electric {
     background-color: rgb(248, 208, 48);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-electric:hover {
+    background-color: rgb(228, 188, 28);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-rock {
     background-color: rgb(184, 160, 56);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-rock:hover {
+    background-color: rgb(164, 140, 36);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-ghost {
     background-color: rgb(112, 88, 152);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-ghost:hover {
+    background-color: rgb(92, 68, 132);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-poison {
     background-color: rgb(160, 64, 160);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-poison:hover {
+    background-color: rgb(140, 44, 140);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-steel {
     background-color: rgb(184, 184, 208);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-steel:hover {
+    background-color: rgb(164, 164, 188);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-normal {
     background-color: rgb(168, 168, 120);
-    border-radius: 5px;
-    padding: 2px 5px;
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.type-normal:hover {
+    background-color: rgb(148, 148, 100);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-psychic {
     background-color: rgb(248, 88, 136);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-psychic:hover {
+    background-color: rgb(228, 68, 116);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-ice {
     background-color: rgb(152, 216, 216);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-ice:hover {
+    background-color: rgb(132, 196, 196);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-fairy {
     background-color: rgb(238, 153, 172);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-fairy:hover {
+    background-color: rgb(218, 133, 152);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-dragon {
     background-color: rgb(112, 56, 248);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-dragon:hover {
+    background-color: rgb(92, 36, 228);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-fighting {
     background-color: rgb(192, 48, 40);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-fighting:hover {
+    background-color: rgb(172, 28, 20);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-bug {
     background-color: rgb(168, 184, 32);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-bug:hover {
+    background-color: rgb(148, 164, 12);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-ground {
     background-color: rgb(224, 192, 104);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-ground:hover {
+    background-color: rgb(204, 172, 84);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 .type-flying {
     background-color: rgb(168, 144, 240);
-    border-radius: 5px;
-    padding: 2px 5px;
     color: rgb(255, 255, 255);
+}
+
+.type-flying:hover {
+    background-color: rgb(148, 124, 220);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000000;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(255, 227, 204);
-    margin: 20px;
+    margin: auto;
 }
+
