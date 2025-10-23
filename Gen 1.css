@@ -1,0 +1,124 @@
+.type-grass {
+    background-color: rgb(120, 200, 80);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-fire {
+    background-color: rgb(240, 128, 48);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-water {
+    background-color: rgb(104, 144, 240);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-electric {
+    background-color: rgb(248, 208, 48);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-rock {
+    background-color: rgb(184, 160, 56);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-ghost {
+    background-color: rgb(112, 88, 152);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-poison {
+    background-color: rgb(160, 64, 160);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-steel {
+    background-color: rgb(184, 184, 208);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-normal {
+    background-color: rgb(168, 168, 120);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.type-psychic {
+    background-color: rgb(248, 88, 136);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-ice {
+    background-color: rgb(152, 216, 216);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-fairy {
+    background-color: rgb(238, 153, 172);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-dragon {
+    background-color: rgb(112, 56, 248);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-fighting {
+    background-color: rgb(192, 48, 40);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-bug {
+    background-color: rgb(168, 184, 32);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-ground {
+    background-color: rgb(224, 192, 104);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+.type-flying {
+    background-color: rgb(168, 144, 240);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 227, 204);
+    margin: 20px;
+}
