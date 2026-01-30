@@ -1,0 +1,28 @@
+body {
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game-container {
+    position: relative; /* Para a UI ficar em cima do canvas */
+    border: 4px solid #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+canvas {
+    background-color: #000;
+    display: block;
+    /* Importante para RPG Pixel Art não ficar borrado: */
+    image-rendering: pixelated; 
+}
+
+@keyframes flash {
+    0% { filter: invert(0); }
+    50% { filter: invert(1); }
+    100% { filter: invert(0); }
+}
